@@ -51,7 +51,7 @@
 
         mounted() {
          if (this.hasSize) {
-            this.$parent.$parent.$el.classList.add('nova-grid-card-styles');
+            //this.$parent.$parent.$el.classList.add('nova-grid-card-styles');
             // this.$refs['field-wrapper'].parentNode.classList.add(this.field.size)  //COMMENT THIS OUT
         }
     },
